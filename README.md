@@ -10,7 +10,7 @@ sudo sh /path/to/darkify-slack.sh
 
 ## Install on Windows
 
-Download [darkify-slack.ps1](https://raw.githubusercontent.com/CaliCastle/slack-dark-theme/master/darkify-slack.ps1), right click and select `Run with Powershell`, Windows Power Shell will execute the installation and exit when done.
+Download <a href="https://raw.githubusercontent.com/CaliCastle/slack-dark-theme/master/darkify-slack.ps1" download>darkify-slack.ps1</a>, right click and select `Run with Powershell`, Windows Power Shell will execute the installation and exit when done.
 
 ### You're all set
 
