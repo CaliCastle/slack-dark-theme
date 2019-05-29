@@ -9792,3 +9792,8 @@ textarea.c-input_textarea:focus {
   background: #444;
   border-color: #555;
 }
+
+/* File preview */
+.p-file_image_thumbnail__wrapper .p-file_image_thumbnail__image {
+  background: #222;
+}
