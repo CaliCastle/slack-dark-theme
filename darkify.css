@@ -801,7 +801,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
 }
 
 #msg_input .ql-placeholder {
-  color: #a1a1a1;
+  color: #ddd;
 }
 
 #msg_input[data-placeholder]:empty::before {
@@ -840,11 +840,6 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
   color: #a1a1a1;
 }
 
-#primary_file_button {
-  background: padding-box #545454;
-  border-color: #424242;
-  color: #949494;
-}
 
 #primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover {
   background: #424242;
@@ -8866,7 +8861,7 @@ a, a:link, a:visited {
 
 .supports_custom_scrollbar .texty_legacy:not(.texty_single_line_input) .ql-editor {
   color: #e6e6e6;
-  background: #2d2d2d;
+  background: #3d3d3d;
   border: none;
 }
 
@@ -8950,7 +8945,6 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
 
 .supports_custom_scrollbar .texty_legacy:not(.texty_single_line_input) .ql-editor {
   color: #e6e6e6;
-  background: #2d2d2d;
 }
 
 .c-message--editing {
@@ -8984,7 +8978,7 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
 }
 
 #msg_form #msg_input {
-  background: padding-box #2d2d2d;
+  background: padding-box #3d3d3d;
   border: none;
   color: #e6e6e6;
 }
@@ -8994,7 +8988,7 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
 }
 
 #primary_file_button {
-  background: padding-box #2d2d2d;
+  background: padding-box #3d3d3d;
   border-color: #424242;
   color: #949494;
 }
