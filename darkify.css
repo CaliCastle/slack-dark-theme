@@ -173,7 +173,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited {
 }
 
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected {
-  background: #333 !important;
+  background: #505050 !important;
 }
 
 .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover {
