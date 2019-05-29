@@ -9203,8 +9203,8 @@ ts-thread .thread_messages {
 }
 
 .c-reaction {
-  background: #363636;
-  border: 1px solid #363636;
+  background: #444;
+  border: 1px solid #444;
 }
 
 .c-reaction:hover {
