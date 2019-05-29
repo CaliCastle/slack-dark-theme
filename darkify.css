@@ -9748,3 +9748,47 @@ textarea.c-input_textarea:focus {
   box-shadow: 0 0 0 3px #222;
   background: #555;
 }
+
+.c-search {
+  background: #333;
+}
+
+.c-search_message__body {
+  color: #ddd;
+}
+
+.c-mrkdwn__broadcast--mention,
+.c-mrkdwn__broadcast--mention:hover,
+.c-mrkdwn__highlight,
+.c-mrkdwn__mention,
+.c-mrkdwn__mention:hover,
+.c-mrkdwn__user_group--mention,
+.c-mrkdwn__user_group--mention:hover {
+  background: #867642;
+}
+
+.p-search_filter__title_text {
+  background: #333;
+  color: #ddd;
+}
+
+.p-search_filter__more_link {
+  background: #8cc7f5;
+}
+
+.p-search_filter__title:before {
+  border-bottom-color: #525252;
+}
+
+.p-search_filter__date {
+  color: #ddd;
+}
+
+.p-search_filter__date:first-child {
+  border-bottom-color: #555;
+}
+
+.p-search_filter__dates {
+  background: #444;
+  border-color: #555;
+}
