@@ -13,7 +13,8 @@ sudo sh /path/to/darkify-slack.sh
 1. Download [this repo and unzip](https://github.com/CaliCastle/slack-dark-theme/archive/v0.1.zip)
 2. Search for PowerShell and **run as administrator** and enter `Set-ExecutionPolicy Unrestricted` and enter **Y** when prompted
 3. **Hold down Shift and right click** on the `darkify-slack` file from your unzipped folder and select `Copy as path`
-4. Go back to PowerShell, paste it and hit enter, then enter **R** when prompted to run the script then it will execute the installation and exit when done.
+4. Go back to PowerShell, paste it and hit enter, then enter **R** when prompted to run the script then it will execute the installation.
+5. Finally, to protect your Windows system, re-enable script protection by entering: `Set-ExecutionPolicy Restricted`
 
 ### You're all set
 
