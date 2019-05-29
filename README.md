@@ -31,8 +31,10 @@ It will automatically install the dark theme into slack for you, once installed 
 ### Behind the Scenes
 
 For Windows, Slack is likely located in `C:\Users\username\AppData\Local\slack\app-{version}\resources\app.asar.unpacked\src\static`
+
 For macOS, it's located in `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static`
-And basically the installation just appends a snippet of JavaScript into the `ssb-interop.js` file:
+
+And basically what it does is just append the JavaScript snippet below into the `ssb-interop.js` file:
 
 ```js
 document.addEventListener("DOMContentLoaded", function () {
