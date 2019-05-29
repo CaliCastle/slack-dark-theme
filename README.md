@@ -1,5 +1,9 @@
 # (Unofficial) Slack Dark Theme
 
+## Theme Preview
+
+![Preview](https://raw.githubusercontent.com/CaliCastle/slack-dark-theme/master/previews/1.png)
+
 ## Install on macOS
 
 Download [darkify-slack.sh](https://raw.githubusercontent.com/CaliCastle/slack-dark-theme/master/darkify-slack.sh) from this repo, then open your terminal and enter:
@@ -7,6 +11,8 @@ Download [darkify-slack.sh](https://raw.githubusercontent.com/CaliCastle/slack-d
 ```bash
 sudo sh /path/to/darkify-slack.sh
 ```
+
+Type in your macOS password and hit enter (password won't be shown)
 
 ## Install on Windows
 

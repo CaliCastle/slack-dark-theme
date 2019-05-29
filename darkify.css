@@ -9683,3 +9683,51 @@ textarea.c-input_textarea:focus {
 .p-message_pane__foreword__notification_warning {
   background: #403923;
 }
+
+.p-prefs_modal__notification_example.p-prefs_modal__notification_example--mac {
+  background: #353535;
+}
+
+.p-app_actions_dialog .c-dialog__footer {
+  background: #313131;
+  border-color: #313131;
+}
+
+.p-app_actions_dialog a.c-dialog__footer_link {
+  color: #ccc;
+}
+
+.p-app_actions_dialog__message {
+  border-color: #3d3d3d;
+  background: transparent;
+}
+
+.p-app_actions_pillow {
+  border-color: transparent;
+  background: #333;
+}
+
+.p-app_actions_pillow--gradient:after {
+  background: linear-gradient(180deg,hsla(0,0%,100%,0),#222);
+}
+
+.c-input_select--open_panel {
+  background: #2d2d2d;
+}
+
+.c-input_select--active {
+  box-shadow: none;
+}
+
+.p-app_actions_dialog__option {
+  border-color: #444;
+}
+
+.p-app_actions_dialog__option--active {
+  background: #444;
+  border-color: #4d4d4d;
+}
+
+.p-app_actions_dialog__option--active:first-child {
+  border-color: #4d4d4d;
+}
