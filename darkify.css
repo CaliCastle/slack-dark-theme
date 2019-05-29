@@ -1916,7 +1916,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
 }
 
 .c-message__body--automated {
-  color: #949494;
+  color: #949494 !important;
 }
 
 .c-message__body--tombstone {
