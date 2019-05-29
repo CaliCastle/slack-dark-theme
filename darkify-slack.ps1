@@ -1,9 +1,7 @@
-// Ark Labs presents - Slack dARK mode
-
 $slackBaseDir = "$env:LocalAppData\Slack"
 $installations = Get-ChildItem $slackBaseDir -Directory | Where-Object { $_.Name.StartsWith("app-") }
 $version = $installations | Sort-Object { [version]$_.Name.Substring(4) } | Select-Object -Last 1
-Write-Output "Select your latest Slack version: $version";
+Write-Output "Found Slack: v$version";
 
 $installed = $false;
 $darkModeScript = @'
