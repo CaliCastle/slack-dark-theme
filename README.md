@@ -10,11 +10,14 @@ sudo sh /path/to/darkify-slack.sh
 
 ## Install on Windows
 
-Download [darkify-slack.ps1](https://github.com/CaliCastle/slack-dark-theme/archive/v0.1.zip), right click and select `Run with Powershell`, Windows Power Shell will execute the installation and exit when done.
+1. Download [this repo and unzip](https://github.com/CaliCastle/slack-dark-theme/archive/v0.1.zip)
+2. Search for PowerShell and **run as administrator** and enter `Set-ExecutionPolicy Unrestricted` and enter **Y** when prompted
+3. **Hold down Shift and right click** on the `darkify-slack` file from your unzipped folder and select `Copy as path`
+4. Go back to PowerShell, paste it and hit enter, then enter **R** when prompted to run the script then it will execute the installation and exit when done.
 
 ### You're all set
 
-It will automatically install the dark theme into slack for you, once installed successfully, terminal or PowerShell will display the `Dark mode has been installed to Slack.` message, then you just need **restart or reload (`Ctrl / Cmd + R`) your Slack app** and start protecting your eyes!
+It will automatically install the dark theme into slack for you, once installed successfully, terminal or PowerShell will display the `Dark mode has been installed to Slack.` message, then you just need **restart your Slack app** and you can start protecting your eyes from now! Yuussss!
 
 -----
 
