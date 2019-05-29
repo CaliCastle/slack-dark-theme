@@ -1919,7 +1919,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
 }
 
 .c-message__body .c-mrkdwn__mention, .c-message__body .c-mrkdwn__broadcast--mention {
-  color: #949494;
+  color: #979797;
 }
 
 .c-message__label {
@@ -9758,7 +9758,9 @@ textarea.c-input_textarea:focus {
 .c-mrkdwn__mention:hover,
 .c-mrkdwn__user_group--mention,
 .c-mrkdwn__user_group--mention:hover {
-  background: #867642;
+    background: #403d3d;
+    padding: 1px 4px;
+    border-radius: 6px;
 }
 
 .p-search_filter__title_text {
