@@ -879,10 +879,6 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
   color: #f3f3f3;
 }
 
-.c-message__body--automated {
-  color: #888;
-}
-
 #notification_bar.wide #typing_text.overflow_ellipsis {
   -webkit-filter: none;
   filter: none;
@@ -1840,7 +1836,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
 }
 
 .c-message:hover .c-message__body--automated, .c-message--hover .c-message__body--automated .c-message--focus .c-message__body--automated {
-  color: #949494;
+  color: #949494 !important;
 }
 
 .c-message:hover .c-message__file_meta, .c-message--hover .c-message__file_meta .c-message--focus .c-message__file_meta {
