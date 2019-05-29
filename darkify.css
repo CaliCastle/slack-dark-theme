@@ -2021,7 +2021,11 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
 }
 
 .c-action_buttons__button:hover {
-  border-color: transparent;
+  border-color: rgba(29,28,29,.13);
+}
+
+.c-action_buttons__button:hover .c-action_buttons__icon {
+  color: #bbb;
 }
 
 .c-message_actions__container:hover {
@@ -9730,4 +9734,21 @@ textarea.c-input_textarea:focus {
 
 .p-app_actions_dialog__option--active:first-child {
   border-color: #4d4d4d;
+}
+
+.p-download_item__container .p-download_item__name_row {
+  color: #ccc;
+}
+
+.c-virtual_list__item--focus .p-download_item, .p-download_item.p-download_item--focus-within, .p-download_item:hover {
+  border-color: #3d3d3d;
+}
+
+.p-download_item__actions {
+  background: #222;
+}
+
+.p-download_item__action_icon {
+  box-shadow: 0 0 0 3px #222;
+  background: #555;
 }
