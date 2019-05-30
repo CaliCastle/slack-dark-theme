@@ -9517,6 +9517,7 @@ input.c-input_select__filter_input {
 
 .p-threads_view_reply {
   border-color: transparent;
+  background: #2d2d2d;
 }
 
 .p-threads_view__footer {
