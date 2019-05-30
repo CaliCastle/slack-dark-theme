@@ -9794,38 +9794,30 @@ textarea.c-input_textarea:focus {
   background: #222;
 }
 
-.p-notification_bar__section {
-  color: #bbb;
+/* Code snippet */
+.c-pillow_file__snippet__content .CodeMirror-code>div:before {
+  color: rgba(179, 179, 179, 0.5);
+  background: rgba(117, 117, 117, 0.04);
 }
 
-.c-file__action_button:active, .c-file__action_button:focus, .c-file__action_button:hover {
-  color: #ccc;
+#notification_banner {
+  background: #333;
 }
 
-.p-file_details__user_meta {
-  color: #a5a5a5;
+.messages_banner_image_wrapper {
+  background: #3d3d3d;
 }
 
-.p-file_details__user_link, .p-file_details__user_link:link, .p-file_details__user_link:visited {
-  color: #ddd;
+span.emoji:not(:empty),
+span.emoji-outer:not(:empty):hover {
+  transition: all .27s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.p-file_details__share_divider span {
-  color: #bbb;
+span.emoji:not(:empty):hover,
+span.emoji-outer:not(:empty):hover {
+  transform: scale(1.25);
+  will-change: transform;
 }
 
-.p-file_details__share_divider hr {
-  border-color: #2d2d2d;
-}
-
-.p-file_details__meta_container .c-file__action_button {
-  color: #ccc;
-}
-
-.p-file_details__meta_container .c-file__action_button:hover {
-  color: #fff;
-}
-
-.c-input_select__secondary_member_name {
-  color: rgba(191, 191, 191, 0.7);
-}
+/* Drag files over pane */
+.message_pane_drag_overlay_mount_point {}
