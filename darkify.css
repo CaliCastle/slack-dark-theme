@@ -173,7 +173,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited {
 }
 
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected {
-  background: #505050 !important;
+  background: #3a3a3a !important;
 }
 
 .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover {
@@ -757,7 +757,6 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
 }
 
 #msg_form #msg_input {
-  background: padding-box #545454;
   border-color: #424242;
   border-left: 0;
   color: #a1a1a1;
@@ -8861,7 +8860,7 @@ a, a:link, a:visited {
 
 .supports_custom_scrollbar .texty_legacy:not(.texty_single_line_input) .ql-editor {
   color: #e6e6e6;
-  background: #3d3d3d;
+  background: #2f2f2f;
   border: none;
 }
 
@@ -8978,7 +8977,7 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
 }
 
 #msg_form #msg_input {
-  background: padding-box #3d3d3d;
+  background: padding-box #2f2f2f;
   border: none;
   color: #e6e6e6;
 }
@@ -8988,7 +8987,7 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
 }
 
 #primary_file_button {
-  background: padding-box #3d3d3d;
+  background: padding-box #2f2f2f;
   border-color: #424242;
   color: #949494;
 }
@@ -9793,4 +9792,8 @@ textarea.c-input_textarea:focus {
 /* File preview */
 .p-file_image_thumbnail__wrapper .p-file_image_thumbnail__image {
   background: #222;
+}
+
+.p-notification_bar__section {
+  color: #bbb;
 }
