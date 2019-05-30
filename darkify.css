@@ -9308,7 +9308,7 @@ div#share-dialog-message-input {
 }
 
 .c-dialog__body .p-share_dialog_message_input {
-  background-color: rgb(29, 29, 29);
+  background-color: transparent;
   color: #e6e6e6;
 }
 
@@ -9758,7 +9758,7 @@ textarea.c-input_textarea:focus {
 .c-mrkdwn__mention:hover,
 .c-mrkdwn__user_group--mention,
 .c-mrkdwn__user_group--mention:hover {
-    background: #403d3d;
+    background: #585151;
     padding: 1px 4px;
     border-radius: 6px;
 }
@@ -9796,4 +9796,36 @@ textarea.c-input_textarea:focus {
 
 .p-notification_bar__section {
   color: #bbb;
+}
+
+.c-file__action_button:active, .c-file__action_button:focus, .c-file__action_button:hover {
+  color: #ccc;
+}
+
+.p-file_details__user_meta {
+  color: #a5a5a5;
+}
+
+.p-file_details__user_link, .p-file_details__user_link:link, .p-file_details__user_link:visited {
+  color: #ddd;
+}
+
+.p-file_details__share_divider span {
+  color: #bbb;
+}
+
+.p-file_details__share_divider hr {
+  border-color: #2d2d2d;
+}
+
+.p-file_details__meta_container .c-file__action_button {
+  color: #ccc;
+}
+
+.p-file_details__meta_container .c-file__action_button:hover {
+  color: #fff;
+}
+
+.c-input_select__secondary_member_name {
+  color: rgba(191, 191, 191, 0.7);
 }
