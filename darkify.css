@@ -2924,7 +2924,8 @@ ts-message .reply_bar:hover {
 }
 
 #connection_div {
-  background: #bf360c;
+  background: #da5229;
+  color: #eee;
 }
 
 #archives_return {
@@ -9848,8 +9849,12 @@ span.emoji:not(:empty):hover, span.emoji-outer:not(:empty):hover {
   will-change: transform;
 }
 
-/* Drag files over pane */
+/* Loading screen */
+.p-message_container_loading {
+  filter: invert(0.865);
+}
 
+/* Drag files over pane */
 .p-message_pane_drag_overlay {
   background: rgba(19, 19, 19, 0.95);
 }
