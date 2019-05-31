@@ -9790,7 +9790,7 @@ textarea.c-input_textarea:focus {
 }
 
 /* File preview */
-.p-file_image_thumbnail__wrapper .p-file_image_thumbnail__image {
+.p-file_image_thumbnail__wrapper, .p-file_image_thumbnail__image {
   background: #222;
 }
 
@@ -9864,4 +9864,12 @@ span.emoji-outer:not(:empty):hover {
 
 .c-pillow_file__content--collapsed:after {
   background: linear-gradient(0deg, #292929, hsla(0, 0%, 100%, 0) 40px);
+}
+
+#details_tab .restricted_members_count {
+  color: #eee;
+}
+
+.channel_option_item {
+  border-color: transparent;
 }
