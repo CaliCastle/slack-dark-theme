@@ -9885,6 +9885,6 @@ span.emoji:not(:empty):hover, span.emoji-outer:not(:empty):hover {
 }
 
 #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
-  background: #333;
+  background: #232323;
   box-shadow: inset 1px 0 0 0 #333;
 }
