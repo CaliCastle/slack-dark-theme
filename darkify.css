@@ -2501,7 +2501,7 @@ ts-mention {
   transition: all .27s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.p-file_image_thumbnail__wrapper:hover {
+.p-file_image_thumbnail__wrapper {
   transition: all .27s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -2895,8 +2895,8 @@ ts-message .reply_bar:hover {
 }
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before {
-  background: #222;
-  border-bottom: 1px solid #222;
+  background: #222 !important;
+  border-bottom: 1px solid #222 !important;
 }
 
 .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar), .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider {
@@ -9846,11 +9846,15 @@ textarea.c-input_textarea:focus {
   background: #3d3d3d;
 }
 
-span.emoji:not(:empty), span.emoji-outer:not(:empty):hover {
+span.emoji:not(:empty), 
+span.emoji-outer:not(:empty),
+.c-avatar__emoji,
+.c-avatar__image {
   transition: all .27s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-span.emoji:not(:empty):hover, span.emoji-outer:not(:empty):hover {
+span.emoji:not(:empty):hover, 
+span.emoji-outer:not(:empty):hover {
   transform: scale(2);
   position: relative;
   z-index: 999999;
@@ -9858,7 +9862,9 @@ span.emoji:not(:empty):hover, span.emoji-outer:not(:empty):hover {
 
 .c-message_attachment__image:hover,
 .c-message_attachment__thumb:hover,
-.p-file_image_thumbnail__wrapper:hover {
+.p-file_image_thumbnail__wrapper:hover,
+.c-avatar__emoji:hover,
+.c-avatar__image:hover {
   transform: scale(1.35);
   z-index: 999999;
 }
@@ -9901,4 +9907,9 @@ span.emoji:not(:empty):hover, span.emoji-outer:not(:empty):hover {
 #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
   background: #232323;
   box-shadow: inset 1px 0 0 0 #333;
+}
+
+.c-avatar__emoji,
+.c-avatar__image {
+
 }
