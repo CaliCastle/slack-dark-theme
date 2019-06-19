@@ -1917,7 +1917,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
 }
 
 .c-message__body .c-mrkdwn__mention, .c-message__body .c-mrkdwn__broadcast--mention {
-  color: #979797;
+  color: #d4d4d4;
 }
 
 .c-message__label {
@@ -9907,6 +9907,27 @@ span.emoji-outer:not(:empty):hover {
 #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
   background: #232323;
   box-shadow: inset 1px 0 0 0 #333;
+}
+
+.c-message_attachment__author_name,
+.c-message_attachment__author_name.c-link--button,
+.c-message_attachment__author_name.c-link--button:active,
+.c-message_attachment__author_name.c-link--button:focus,
+.c-message_attachment__author_name.c-link--button:hover {
+  color: #eee;
+}
+
+.p-file_upload_dialog .c-label--inline {
+  color: #eee;
+}
+
+.p-multi_file_upload__add_file_btn {
+  color: #a0cbec;
+}
+
+.p-multi_file_upload__container .p-galler_scroller__wrapper {
+  background-color: #333;
+  border-color: #333;
 }
 
 .c-avatar__emoji,
